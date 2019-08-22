@@ -25,32 +25,127 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>How to quit?</section>
+				<section>
+                    <h1>Surviving in vim</h1>
+					<br>
+					<p>
+						made with <span style="color:red">♥</span> by <a rel="nofollow" href="https://github.com/xafardero">xaf</a>
+					</p>
+				</section>
 				<section>Vim reputation</section>
-				<section>Image</section>
-				<section>Image</section>
-				<section>Image</section>
-				<section>Image</section>
-				<section>Modes</section>
-					<p class="fragment grow">Normal</p>
-					<p class="fragment grow">Insert</p>
-					<p class="fragment grow">Visual</p>
-				<section>Normal mode</section>
-				<section>Insert mode</section>
-				<section>Visual mode</section>
-				<section>Moving</section>
-				<section>Macros</section>
-				<section>Config</section>
+                <section data-background-size="contain" data-background="img/stackover.png"></section>
+                <section data-background-size="contain" data-background="img/boromir-exit.jpeg"></section>
+                <section data-background-size="contain" data-background="img/noton-exit.jpeg"></section>
+                <section data-background-size="contain" data-background="img/learn-vim.jpeg"></section>
+				<section>
+				    <h2>Modes</h2>
+					<p class="fragment">Normal</p>
+					<p class="fragment">Insert</p>
+					<p class="fragment">Visual</p>
+                </section>
+				<section>
+                    <h2>Normal mode</h2>
+					<p class="fragment">Default mode</p>
+					<p class="fragment">You can execute commands and move around the code</p>
+					<p class="fragment">Come back here with <ESC></p>
+                </section>
+				<section>
+				    <h2>Insert mode</h2>
+					<p class="fragment">Tipical notepad mode</p>
+					<p class="fragment">You can execute commands with key combinations</p>
+					<p class="fragment">Use i</p>
+                </section>
+				<section>
+				    <h2>Visual mode</h2>
+					<p class="fragment">Mode of text selection</p>
+					<p class="fragment">You can execute commands</p>
+					<p class="fragment">Use v</p>
+                </section>
+				<section>
+				    <h2>Bonus: Command mode</h2>
+					<p class="fragment">You can execute more commands</p>
+					<p class="fragment">Use :</p>
+                </section>
+                <section data-background-size="contain" data-background-color="#FFF" data-background="img/modes.png"></section>
+				<section>
+				    <h2>Open file</h2>
+					<p class="fragment"><code>:e gunit.md</code></p>
+                </section>
+				<section>
+				    <h2>Files</h2>
+					<p class="fragment">:w Write</p>
+					<p class="fragment">:x Write & Exit</p>
+					<p class="fragment">ZZ Write & Exit</p>
+					<p class="fragment">:q Quit</p>
+					<p class="fragment">:q! Quit without saving changes</p>
+                </section>
+				<section>
+				    <h2>Split screen</h2>
+					<p class="fragment">:sp file</p>
+					<p class="fragment">:vsp file</p>
+				</section>
+				<section>
+				    <h2>Moving</h2>
+					<p class="fragment">hjkl</p>
+					<p class="fragment">Try it in gmail or github :D</p>
+				</section>
+				<section>
+				    <h2>Moving II</h2>
+					<p class="fragment">w (word)</p>
+					<p class="fragment">b (back)</p>
+					<p class="fragment">gg (top)</p>
+					<p class="fragment">G (botton)</p>
+					<p class="fragment">0 (column 0)</p>
+					<p class="fragment">$ (end of line)</p>
+				</section>
+                <section data-background-size="contain" data-background-color="#FFF" data-background="img/move.png"></section>
+                <section>
+				    <h2>Verbs</h2>
+					<p class="fragment">y (yank)</p>
+					<p class="fragment">p (paste)</p>
+					<p class="fragment">d (delete)</p>
+					<p class="fragment">r (replace)</p>
+				</section>
+                <section>
+				    <h2>Mix things</h2>
+					<p class="fragment">2yy (yank 2 lines)</p>
+					<p class="fragment">5pp (paste 5 lines)</p>
+					<p class="fragment">2dd (delete 2 lines)</p>
+					<p class="fragment">d2w (delete 2 words)</p>
+					<p class="fragment">dtw (delete 2 words)</p>
+				</section>
+                <section>
+				    <h2>Search</h2>
+					<p class="fragment">/something</p>
+				</section>
+                <section>
+				    <h2>Replace</h2>
+					<p class="fragment">:%s/xavi/Xavi</p>
+				</section>
+                <section>
+				    <h2>Undo and redo</h2>
+					<p class="fragment">u (undoes)</p>
+					<p class="fragment"><C-r> (redoes)</p>
+				</section>
 				<section>Plugins</section>
-				<section>Image</section>
-				<section>Image</section>
-				<section>Image</section>
-				<section>Image</section>
-				<section>Resources</section>
-				<section>:help</section>
-				<section>:help tutor</section>
-				<section>TimPope</section>
-				<section>VimGolf</section>
+                <section data-background-size="contain" data-background="img/nerdtree.png"></section>
+                <section data-background-size="contain" data-background="img/fugitive.png"></section>
+                <section data-background-size="contain" data-background="img/gutter.png"></section>
+                <section data-background-size="contain" data-background="img/fzf.gif"></section>
+				<section>
+				    <h2>Config</h2>
+					<p>/home/user/.vimrc</p>
+					<p>Allows you to tune vim, install plugins, aliases, personal keystronkes, function...</p>
+				</section>
+				<section>
+				    <h2>Resources</h2>
+					<p class="fragment">:help</p>
+                    <p class="fragment">:help tutor</p>
+				    <p class="fragment">https://www.vimgolf.com</p>
+                    <p class="fragment">in terminal type: vimtutor</p>
+				    <p class="fragment">https://www.vim-adventures.com</p>
+				</section>
+				<section>Questions?</section>
 			</div>
 		</div>
 

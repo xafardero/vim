@@ -1,0 +1,4 @@
+Blau
+Verd
+Gris
+Groc
